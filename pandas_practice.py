@@ -85,6 +85,5 @@ print(friend)
 
 # print(friend.drop_duplicates(keep='last'))
 # print(friend.isnull())
-
 print(friend.groupby('age').mean())
 print(friend['job'].unique())
