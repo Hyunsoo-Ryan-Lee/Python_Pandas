@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 df = pd.DataFrame(
-    {
+    {  
         "Name": [
             "Braund, Mr. Owen Harris",
             "Allen, Mr. William Henry",
