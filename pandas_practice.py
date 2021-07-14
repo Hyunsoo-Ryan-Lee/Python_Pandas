@@ -79,7 +79,6 @@ friend = pd.DataFrame(friend_dict_list)
 friend = friend.append({'name' :  '이현수', 'age' : 31, 'job' : '학생', 'hobby' : 'coding'}, ignore_index=True)
 friend = friend.append({'name' :  '이현수', 'age' : 31, 'job' : '학생', 'hobby' : 'coding'}, ignore_index=True)
 friend['sal'] = 0
-
 friend['sal'] = np.where(friend['job'] == '학생',100,200)
 print(friend)
 
